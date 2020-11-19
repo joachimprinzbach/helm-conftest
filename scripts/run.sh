@@ -14,7 +14,7 @@ do
                 $HELM_PLUGIN_DIR/bin/conftest test $1
                 exit
                 ;;
-            --debug|--no-color|--trace|--update|--fail-on-warn)
+            --debug|--no-color|--trace|--update|--fail-on-warn|--combine)
                 conftest_options+=("$1")
                 shift
                 ;;
